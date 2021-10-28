@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>OddCalc</title>
+    </head>
+    <body>
+        <script>
+            var move = prompt("Does it move? [y/n]");
+            if (move === "y") {
+                var should = prompt("Should it? [y/n]");
+                if (should === "y") {
+                    console.log("No problem.");
+                }   else if (should === "n") {
+                        console.log("DUCT TAPE TIME!");
+                }   else {
+                        console.log("Answer my question! You didn't type y or n.");
+                }  
+            } else if (move === "n"){
+                var should = prompt ("Should it? [y/n]");
+                if (should === "n") {
+                    console.log("No problem.");
+                }    else if (should === "y"){
+                        console.log("WD-40 TIME!");
+                }    else {
+                        console.log("Answer my question! You didn't type y or n.");
+                }
+            } else {
+                console.log("Answer my question! You didn't type y or n.");
+            }
+        </script>
+    </body>
+</html>
